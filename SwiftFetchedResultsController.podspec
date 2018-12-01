@@ -8,12 +8,12 @@ Pod::Spec.new do |s|
                     FetchedResultsController supports tableview sections and implements a drop-in replacement delegate to pass the changes to the tableview for section and row animations.
                    DESC
 
-  s.homepage     = "http://github.com/Roobiq/RBQFetchedResultsController"
+  s.homepage     = "https://github.com/SneakersAgencyLLC/RBQFetchedResultsController"
   s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.author       = { "Roobiq" => "support@roobiq.com" }
-  s.social_media_url   = "http://twitter.com/Roobiq"
+  s.author       = { "Roobiq" => "info@sneakersagency.com" }
+  s.social_media_url   = "https://twitter.com/sneakersagency"
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/Roobiq/RBQFetchedResultsController.git", :tag => "v#{s.version}", :submodules => true }
+  s.source       = { :git => "https://github.com/SneakersAgencyLLC/RBQFetchedResultsController.git", :tag => "v#{s.version}", :submodules => true }
   s.source_files  = [
     "RBQFetchedResultsController/Source/Swift/*.{h,swift}",
     "RBQFetchedResultsController/Source/RBQSafeRealmObject/*.{swift}"
